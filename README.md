@@ -31,7 +31,7 @@ This repo is my notes from building 15 kernels from scratch and profiling them w
 | Version | Status | Notes |
 |---|---|---|
 | naive | done | 9.33ms, 27 regs, 0 spill - measured on 3050 6GB |
-| tiled 32x32 | todo | Shared memory |
+| tiled 16x16 | done | 5.02ms (1.85x vs naive), 32 regs, 0 spill |
 | wmma | todo | Tensor cores |
 | cuBLAS | todo | Baseline |
 
